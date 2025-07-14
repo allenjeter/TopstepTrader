@@ -59,7 +59,7 @@ class TradingViewDataFeed:
     """TradingView real-time market data feed for CME futures"""
     
     def __init__(self, username: str, password: str, symbols: List[str]):
-        self.username = username
+        self.username = allenjeter
         self.password = password
         self.symbols = symbols
         self.websocket = None
